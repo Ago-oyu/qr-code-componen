@@ -4,4 +4,38 @@
 }
 body {
     font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+    background-color: hsl(212, 45%, 89%);
+    margin: 0;
+}
+
+.container {
+    position: absolute;
+    width: 300px;
+    max-height: 600px;
+    background-color: hsl(0, 0%, 100%);
+    top: 50vh;
+    left: 50vw;
+    margin-top: -300px;
+    margin-left: -200px;
+    border-radius: 18px;
+    padding: 25px;
+}
+
+.qr-code {
+    display: block;
+    max-width: 300px;
+    border-radius: 18px;
+}
+
+p {
+    text-align: center;
+    margin-top: 25px;
+    color: hsl(220, 15%, 55%);
+}
+
+.section {
+    font-weight: 700;
+    font-size: 1.618rem;
+    color: hsl(218, 44%, 22%);
 }
