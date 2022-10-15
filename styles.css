@@ -9,15 +9,16 @@ body {
     margin: 0;
 }
 
-.container {
+.main {
     position: absolute;
     width: 300px;
-    max-height: 600px;
+    max-height: 500px;
     background-color: hsl(0, 0%, 100%);
-    top: 50vh;
-    left: 50vw;
-    margin-top: -300px;
-    margin-left: -200px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
     border-radius: 18px;
     padding: 25px;
 }
